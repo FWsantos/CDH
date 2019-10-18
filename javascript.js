@@ -1,7 +1,3 @@
-let sendoh = ["3", 1.92];
-alert();
-
-
 
 let mudarnome = function(){
 	let titulo = document.getElementById("titulo");
