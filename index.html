@@ -1,50 +1,45 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Slide</title>
-	<script type="text/javascript" src="script.js"></script>
-	<style type="text/css">
-		/*Nehuma div é visivel*/
-		div {
-			visibility: hidden;
-		}
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		#indice, #front{
-			visibility: visible;
-		}
-	</style>
+  <title>Hello, world!</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div id="front">
-		slide_0
-	</div>
-	<div id="indice">
-				0
-	</div>
-	<button onclick="before()">Anterior</button>
-	<button onclick="next()">Proximo</button>
 
-	<div id="slide_0" >
-		slide_0
-	</div>
-	<div id="slide_1" >
-		slide_1
-	</div>
-	<div id="slide_2" >
-		slide_2
-	</div>
-	<div id="slide_3" >
-		slide_3
-	</div>
-	<div id="slide_4" >
-		slide_4
-	</div>
-	<div id="slide_5" >
-		slide_5
-	</div>
-	<div id="slide_6" >
-		slide_6
-	</div>
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4">
+
+      </div>
+      <div class="col-md-4">
+        <h2 class="text-center">Logue-se</h2>
+
+        <form method="post">
+          <div class="form-group jumbotron">
+
+            <!-- <label for="nome">Nome: </label> -->
+            <input id="nome" class="form-control" type="text" name="nome" placeholder="Digite o nome">
+            <!-- <label for="senha">Senha: </label> -->
+            <input id="senha" class="form-control" type="password" name="senha" placeholder="Digite a senha">
+            <button class="btn btn-primary form-control">Logar</button>
+          </div>
+        </form>
+
+      </div>    
+    </div>
+  </div>    
+
 </body>
 </html>
